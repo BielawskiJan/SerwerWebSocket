@@ -1,0 +1,8 @@
+1	TCP Server & HTTP handshake---Otwarcie socketu, odczyt HTTP, Sec-WebSocket-Accept
+2	Parsowanie nagłówków---Własna funkcja do parsowania HTTP
+3	Dekodowanie ramek WebSocket---Własna implementacja odczytu danych WebSocket (fin, opcode, payload)
+4	Kodowanie ramek WebSocket---Wysyłanie wiadomości tekstowych do klienta
+5	Obsługa komunikacji dwukierunkowej---Serwer echo, klient pisze – serwer odpowiada
+6	Wątki: obsługa wielu klientów---Jeden wątek per klient
+7	Broadcast / czat---Serwer wysyła wiadomości od jednego klienta do wszystkich
+8	Ping/pong, zamknięcie, debug---Protokolarna obsługa close, ping, pong, cleanup
